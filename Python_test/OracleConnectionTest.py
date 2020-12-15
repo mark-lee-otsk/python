@@ -11,4 +11,4 @@ cursor.execute("""
        # did = 'USLGB',
        # eid = 190)
 for fname, lname in cursor:
-    print("Values:", fname, lname)
+    print("Values:", fname, lname) 

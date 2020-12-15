@@ -26,7 +26,7 @@ def tables_in_query(sql_str):
     #re.split(r"[\s)(,;]+", q)
     #split on blanks, parens and semicolons
     tokens = re.split(r"[\s)(;]+", q)
- 
+  
 
     #sacn the tokens. if we see a FROM or JOIN, we set the get_next
     #flag, and grab the next one (unless it's SELECT).
